@@ -1,0 +1,36 @@
+.navbar-header {
+  display: flex;
+  background: palevioletred;
+}
+
+a {
+  padding: 30px;
+  border: 1px solid;
+}
+.brand-name {
+  flex: 30%;
+}
+.brand-name h1 {
+  color: black;
+}
+.narbar-menu {
+  display: flex;
+  flex: 70%;
+}
+.narbar-menu ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-top: 25px;
+}
+.narbar-menu li {
+  flex: auto;
+}
+.narbar-menu a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+#home {
+  display: flex;
+  text-align: center;
+}
